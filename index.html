@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card card-body">
+            <h2 class="title">Shopping Products</h2>
+            <ul id="items" class="list-group">
+                <li id="parent" class="list-group-item">
+                    <div class="row">
+                    <button type="button" id="delete" class="col-1 offset-2 btn btn-danger">DELETE</button>
+                    <h3 class="col-4">Iphone 13 <br><br><span id="price"> 2999 </span>TND</h3>
+                    <img class="ph1" src="iphne.jpg" height="200"> <br><br><br><br>
+                    <i class="fa fa-heart" style="font-size:48px;color:red"></i>
+                    <button type="button" id="minus-button" class="col-1 btn btn-secondary"><h4>-</h4></button>
+                    <div class="col-1"><h3 id="quantity">0</h3></div>
+                    <button type="button" id="add-button" class="col-1 btn btn-primary"><h4>+</h4></button>
+                    <br><br>
+                    
+                    
+                    </div>
+                </li> 
+                <li id="parent" class="list-group-item">
+                    <div class="row">
+                        <button type="button" id="delete" class="col-1 offset-2 btn btn-danger">DELETE</button>
+                    <h3 class="col-4">Smart TV <br><br> <span id="price"> 3550 </span>TND</h3>
+                    <img class="ph2" src="tv.jpg" height="200"> <br><br><br><br>
+                    <button type="button" id="minus-button" class="col-1 btn btn-secondary"><h4>-</h4></button>
+                    <div class="col-1"><h3 id="quantity">0</h3></div>
+                    <button type="button" id="add-button" class="col-1 btn btn-primary"><h4>+</h4></button>
+                    <br><br>
+                    </div>
+                </li>
+                <li id="parent" class="list-group-item">
+                    <div class="row">
+                    <button type="button" id="delete" class="col-1 offset-2 btn btn-danger">DELETE</button>
+                    <h3 class="col-4">Laptop <span id="price"> 1800 </span>TND</h3>
+                    <img class="ph3" src="laptop.jpg" height="200"> <br><br><br><br>
+                    <button type="button" id="minus-button" class="col-1 btn btn-secondary"><h4>-</h4></button>
+                    <div class="col-1"><h3 id="quantity">0</h3></div>
+                    <button type="button" id="add-button" class="col-1 btn btn-primary"><h4>+</h4></button>
+                    </div>
+                </li>
+                
+           
+                <li class="list-group-item totale-price">
+                    <div class="row bg-info">
+                    <h3 class="col-4" id="totale-price"></h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>
